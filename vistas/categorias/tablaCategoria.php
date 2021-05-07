@@ -9,7 +9,7 @@
 ?>
 
 
-<div class="table-resposive"  >
+<div class="table-resposive-sm"  >
   <table class="table table-hover table-dark table-striped  " id="tablaCategoriaDataTable">
     <thead>
       <tr style="text-align: center;">

@@ -80,8 +80,8 @@
         case 'mp4':
           return '<video src="'.$ruta.'" controls width="100%" heigth="800px"></video>';
           break;
-        case 'sql':
-          # code...
+        case 'jpeg':
+            return '<img src="'.$ruta.'" width = "50%";>';
           break;
         case 'rar':
           # code...
