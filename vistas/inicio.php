@@ -27,43 +27,47 @@ if (isset($_SESSION['usuario'])) {
                 <li data-target="#demo" data-slide-to="8"></li>
                 <li data-target="#demo" data-slide-to="9"></li>
                 <li data-target="#demo" data-slide-to="10"></li>
+                <li data-target="#demo" data-slide-to="11"></li>
               </ul>
 
               <!-- The slideshow -->
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <!-- <img src="../img/img1.jpeg" alt="Los Angeles" width="60%"> -->
-                  <a href="https://covers.alphacoders.com/cover/view/57783"><img src="https://coverfiles.alphacoders.com/577/57783.jpg" style="height: 250px;"></a>
+                  <a href="https://covers.alphacoders.com/cover/view/57783"><img src="../img/img_1.jpg" style="height: 250px;"></a>
                 </div>
                 <div class="carousel-item">
-                  <a href="https://covers.alphacoders.com/cover/view/46885"><img src="https://coverfiles.alphacoders.com/468/46885.png" style="height: 250px;"></a>
+                  <a href="https://covers.alphacoders.com/cover/view/46885"><img src="../img/img2.png" style="height: 250px;"></a>
                 </div>
                 <div class="carousel-item">
-                  <a href="https://covers.alphacoders.com/cover/view/177762"><img src="https://coverfiles.alphacoders.com/177/177762.jpg" style="height: 250px;"></a>
+                  <a href="https://covers.alphacoders.com/cover/view/177762"><img src="../img/img3.jpg" style="height: 250px;"></a>
                 </div>
                 <div class="carousel-item">
-                  <a href="https://covers.alphacoders.com/cover/view/108635"><img src="https://coverfiles.alphacoders.com/108/108635.jpg" style="height: 250px;"></a>
+                  <a href="https://covers.alphacoders.com/cover/view/108635"><img src="../img/img4.jpg" style="height: 250px;"></a>
                 </div>
                 <div class="carousel-item">
-                  <a href="https://covers.alphacoders.com/cover/view/56488"><img src="https://coverfiles.alphacoders.com/564/56488.jpg" style="height: 250px;"></a>
+                  <a href="https://covers.alphacoders.com/cover/view/56488"><img src="../img/img5.jpg" style="height: 250px;"></a>
                 </div>
                 <div class="carousel-item">
-                  <a href="https://covers.alphacoders.com/cover/view/174574"><img src="https://coverfiles.alphacoders.com/174/174574.png" style="height: 250px;"></a>
+                  <a href="https://covers.alphacoders.com/cover/view/174574"><img src="../img/img6.png" style="height: 250px;"></a>
                 </div>
                 <div class="carousel-item">
-                  <a href="https://covers.alphacoders.com/cover/view/74611"><img src="https://coverfiles.alphacoders.com/746/74611.png" style="height: 250px;"></a>
+                  <a href="https://covers.alphacoders.com/cover/view/74611"><img src="../img/img7.png" style="height: 250px;"></a>
                 </div>
                 <div class="carousel-item">
-                  <a href="https://covers.alphacoders.com/cover/view/115708"><img src="https://coverfiles.alphacoders.com/115/115708.jpg" style="height: 250px;"></a>
+                  <a href="https://covers.alphacoders.com/cover/view/115708"><img src="../img/img8.jpg" style="height: 250px;"></a>
                 </div>
                 <div class="carousel-item">
-                  <a href="https://covers.alphacoders.com/cover/view/44229"><img src="https://coverfiles.alphacoders.com/442/44229.png" style="height: 250px;"></a>
+                  <a href="https://covers.alphacoders.com/cover/view/44229"><img src="../img/img9.png" style="height: 250px;"></a>
                 </div>
                 <div class="carousel-item">
-                  <a href="https://covers.alphacoders.com/cover/view/177775"><img src="https://coverfiles.alphacoders.com/177/177775.png" style="height: 250px;"></a>
+                  <a href="https://covers.alphacoders.com/cover/view/177775"><img src="../img/img10.png" style="height: 250px;"></a>
                 </div>
                 <div class="carousel-item">
-                  <a href="https://covers.alphacoders.com/cover/view/178540"><img src="https://coverfiles.alphacoders.com/178/178540.jpg" style="height: 250px;"></a>
+                  <a href="https://covers.alphacoders.com/cover/view/178540"><img src="../img/img11.jpg" style="height: 250px;"></a>
+                </div>
+                <div class="carousel-item">
+                  <a href="https://covers.alphacoders.com/cover/view/178540"><img src="../img/img12.jpg" style="height: 250px;"></a>
                 </div>
               </div>
 
