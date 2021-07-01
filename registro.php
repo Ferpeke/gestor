@@ -15,13 +15,9 @@
 </head>
 
 <body class="fondo">
-  <div class="container mt-3">
+  <div class="container mt-3 bg-success">
     <h1 class="text-center"> Registro de usuario </h1>
-    <div class="row">
-
-      <div class="col-sm-4">
-
-      </div>
+    <div class="row justify-content-center">
       <div class="col-sm-4">
         <form id="frmRegistro" method="POST" onsubmit="return agregarUsuarioNuevo()" autocomplete="off">
           <label>Nombre de Personal</label>
@@ -45,62 +41,58 @@
           </div>
         </form>
       </div>
-      <div class="col-sm-4">
-
-      </div>
     </div>
   </div>
-<script src="js/jquery.js"></script>
+  <script src="js/jquery.js"></script>
 
-<script src="librerias/jquery-ui/jquery-ui.js"></script>
+  <script src="librerias/jquery-ui/jquery-ui.js"></script>
 
-<script src="librerias/sweetalert/sweetalert.js"></script>
-<script>
+  <script src="librerias/sweetalert/sweetalert.js"></script>
+  <script>
+    $(function() {
 
-  $(function () {
+      var fechaA = new Date();
 
-    var fechaA = new Date();
+      var yyyy = fechaA.getFullYear();
 
-    var yyyy = fechaA.getFullYear();
+      $('#fechaNacimiento').datepicker({
 
-    $('#fechaNacimiento').datepicker({
-
-      changeMonth: true,
-      changeYear: true,
-      yearRange: '1900:' + yyyy,
-      dateFormat: "dd-mm-yy"
-    });
-  });
-
-
-
-
-
-  function agregarUsuarioNuevo() {
-    $.ajax({
-      method: "POST",
-      data: $('#frmRegistro').serialize(),
-      url: "procesos/usuario/registro/agregarUsuario.php",
-      success: function(respuesta) {
-        respuesta = respuesta.trim();
-
-        if (respuesta == 1) {
-
-          $("#frmRegistro")[0].reset();
-          swal(":D", "Agregado con éxito!", "success");
-        } else {
-          alert(respuesta);
-          swal(":(", "Fracaso!", "error")
-        }
-        if(respuesta == 2) {
-          swal("Estes usuario ya existe!!!, por favor escribe otro","", "warning");
-        }
-      }
+        changeMonth: true,
+        changeYear: true,
+        yearRange: '1900:' + yyyy,
+        dateFormat: "dd-mm-yy"
+      });
     });
 
-    return false;
-  }
-</script>
+
+
+
+
+    function agregarUsuarioNuevo() {
+      $.ajax({
+        method: "POST",
+        data: $('#frmRegistro').serialize(),
+        url: "procesos/usuario/registro/agregarUsuario.php",
+        success: function(respuesta) {
+          respuesta = respuesta.trim();
+
+          if (respuesta == 1) {
+
+            $("#frmRegistro")[0].reset();
+            swal(":D", "Agregado con éxito!", "success");
+          } else {
+            alert(respuesta);
+            swal(":(", "Fracaso!", "error")
+          }
+          if (respuesta == 2) {
+            swal("Estes usuario ya existe!!!, por favor escribe otro", "", "warning");
+          }
+        }
+      });
+
+      return false;
+    }
+  </script>
 </body>
 
 </html>
