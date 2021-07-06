@@ -40,7 +40,7 @@
       color: #fff;
     }
 
-    .login-form-2 {
+    .login-form {
       padding: 9%;
       background: #f05837;
       box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
@@ -79,7 +79,7 @@
 
   <div class="container login-container">
     <div class="row justify-content-center">
-      <div class="col-sm-6 login-form-2">
+      <div class="col-sm-6 login">
         <h3 class="display-4">Gestor de Archivos</h3>
         <hr style="background-color: white;">
         <form method="POST" id="frmLogin" onsubmit="return logear()">
